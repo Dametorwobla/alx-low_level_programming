@@ -1,1 +1,1 @@
-Thus project is about script and codes used in C programming
+This projet is about scripts and codes used in C programming
