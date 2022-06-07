@@ -1,19 +1,24 @@
 #include "main.h"
 
 /**
- * print_alphabet - prints the english alphabet in lowercase
+ * print_alphabet_x10 - prints 10 times the alphabet, in lowercase
  *
- * Return: 0
+ * followed by a new line
+ *
+ * Return: nothing
  */
 
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	char c = 'a';
-	int i;
+	int i, j;
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 10; i++)
 	{
-		_putchar(c + i);
+		for (j = 0; j < 26; j++)
+		{
+			_putchar(c + j);
+		}
+		_putchar(10);
 	}
-	_putchar(10);
 }
